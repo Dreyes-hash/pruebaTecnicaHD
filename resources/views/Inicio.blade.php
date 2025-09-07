@@ -10,7 +10,7 @@
     <div class="container">
         <!-- formulario de registro de usuario -->
         <h1>Registro de Usuario</h1> 
-        <form action="{{}}" method="POST">
+        <form action="{{ route('guardar.usuario') }}" method="POST">
             @csrf
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" id="nombre" required>
