@@ -16,16 +16,17 @@
 ---
 
 ## 2. Diagrama de Casos de Uso
-
+```mermaid
 flowchart TD
   Usuario --> A[Registrar datos en formulario]
   Usuario --> B[Ver catálogo de juguetes]
   Usuario --> C[Filtrar juguetes por género]
   Usuario --> D[Recibir saludo]
   Usuario --> E[Solicitar envío de información por correo]
-
+```
 
 ## 3. Flujo de la información
+```mermaid
 flowchart TD
   A[Usuario llena formulario] --> B[Datos guardados en sesión/cookie]
   B --> C[Consulta catálogo de juguetes]
@@ -33,7 +34,7 @@ flowchart TD
   D --> E[Mostrar catálogo en pantalla con saludo]
   E --> F[Usuario da clic en Enviar]
   F --> G[Enviar información del juguete al correo del usuario]
-
+```
 ## 4. Modelado de la BD
 
 Tabla Juguetes
