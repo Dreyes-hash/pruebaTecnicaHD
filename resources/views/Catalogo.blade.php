@@ -12,7 +12,7 @@
     <div class="catalogo">
         @foreach($juguetes as $juguete)
             <div class="juguete-item">
-                <img src="{{ asset('images/' . $juguete->imagen) }}" alt="{{ $juguete->nombre }}">
+                <img src="{{ $juguete->imagen }}" alt="{{ $juguete->nombre }}">
                 <h3>{{ $juguete->nombre }}</h3>
                 <p>Precio: ${{ number_format($juguete->precio, 2) }}</p>
                 <form action="{{ route('enviar.juguete') }}" method="POST">
