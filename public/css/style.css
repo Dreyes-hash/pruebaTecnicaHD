@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     font-family: 'Roboto', sans-serif;
     background: #c0bebe;
@@ -45,6 +46,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* Alertas */
 .alert {
     background-color: #d4edda;
     border: 1px solid #c3e6cb;
@@ -56,6 +58,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* Catálogo */
 .catalogo {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +67,7 @@ h1, h2 {
     margin-top: 30px;
 }
 
+/* Item del catálogo */
 .juguete-item {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -75,11 +79,13 @@ h1, h2 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* Efecto hover en el item del catálogo */
 .juguete-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
+/* Imagen del item del catálogo */
 .juguete-item img {
     width: 150px;       
     height: 150px;      
@@ -88,16 +94,19 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+/* Título del item del catálogo */
 .juguete-item h3 {
     margin: 10px 0 5px;
     font-size: 18px;
 }
 
+/* Descripción del item del catálogo */
 .juguete-item p {
     font-size: 16px;
     color: #555;
 }
 
+/* Botón del item del catálogo */
 .juguete-item button {
     background-color: #000000;
     color: white;
@@ -108,6 +117,7 @@ h1, h2 {
     transition: background-color 0.2s;
 }
 
+/* Efecto hover en el botón del item del catálogo */
 .juguete-item button:hover {
     background-color: #309130;
 }

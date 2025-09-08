@@ -11,6 +11,8 @@ class DatabaseSeeder extends Seeder
     /**
      * Seed the application's database.
      */
+
+    // llamar a los seeders para poblar la base de datos
     public function run(): void
     {
         $this->call(JuguetesSeeder::class);

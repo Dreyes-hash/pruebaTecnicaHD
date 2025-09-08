@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
 <body>
+    <!-- saludos de bienvenida recuperando las variables de sesión -->
     <h1>¡Hola, {{ session('nombre') }}!</h1>
     <h2>Juguetes recomendados para {{ session('genero') }}</h2>
 
+    <!-- Ciclo foreach para mostrar los juguetes -->
     <div class="catalogo">
         @foreach($juguetes as $juguete)
             <div class="juguete-item">
